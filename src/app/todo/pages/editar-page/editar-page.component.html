@@ -1,0 +1,11 @@
+<mat-form-field appearance="fill">
+  <input
+    matInput
+    [(ngModel)]="tareaDescripcion"
+    [placeholder]="descripcionACambiar"
+  />
+</mat-form-field>
+<mat-checkbox [checked]="hecho" (change)="checkHecho()">Hecho</mat-checkbox>
+<button mat-raised-button color="primary" (click)="actualizarTarea(tarea)">
+  Actualizar
+</button>

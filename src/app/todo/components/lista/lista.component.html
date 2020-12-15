@@ -1,0 +1,24 @@
+<div class="lista">
+  <mat-selection-list #items>
+    <ng-container *ngFor="let tarea of tareas">
+      <mat-list-option
+        (click)="seleccionar(tarea)"
+        [selected]="tarea.hecho"
+        [value]="tarea.id"
+      >
+        {{ tarea.descripcion }}
+      </mat-list-option>
+      <button
+        mat-raised-button
+        color="primary"
+        [routerLink]="['/editar', tarea.id]"
+      >
+        actualizar
+      </button>
+      <button mat-raised-button color="warn" (click)="eliminar(tarea.id)">
+        eliminar
+      </button>
+    </ng-container>
+  </mat-selection-list>
+  <p style="margin: 8vh">Tareas completadas: {{ tareasTerminadas }}</p>
+</div>

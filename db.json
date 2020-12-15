@@ -1,0 +1,44 @@
+{
+  "tareas": [
+    {
+      "id": 3,
+      "descripcion": "editar 2 con swal",
+      "hecho": true
+    },
+    {
+      "id": 6,
+      "descripcion": "tarea de ejemplo 3",
+      "hecho": false
+    },
+    {
+      "id": 681376803,
+      "descripcion": "hola",
+      "hecho": false
+    },
+    {
+      "id": 4196903504,
+      "descripcion": "test",
+      "hecho": false
+    },
+    {
+      "id": 787709283,
+      "descripcion": "test 2",
+      "hecho": false
+    },
+    {
+      "id": 7806048652,
+      "descripcion": "test 3",
+      "hecho": false
+    },
+    {
+      "id": 3356549282,
+      "descripcion": "Swal test",
+      "hecho": false
+    },
+    {
+      "id": 4037749521,
+      "descripcion": "async",
+      "hecho": false
+    }
+  ]
+}
